@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customized_tour">사용자 맞춤형</string>
+    <string name="customized_explain">사용자의 기호에 맞게 분석해서 추천</string>
+    <string name="outdoor_tour">아웃도어 라이프</string>
+    <string name="outdoor_explain">액티비티를 좋아하는 당신을 위해서</string>
+    <string name="healing_tour">힐링</string>
+    <string name="healing_explain">여행은 편하게 쉬기 위해 떠나는 것</string>
+    <string name="gourmet_tour">맛집 탐방</string>
+    <string name="gourmet_explain">여행의 백미는 뭐니뭐니해도 식도락</string>
+    <string name="night_tour">야밤 투어</string>
+    <string name="night_explain">낮보다는 야경이 더 예쁜 사람들에게</string>
+    <string name="landmark_tour">유명지 관광</string>
+    <string name="landmark_explain">여기를 왔으면 이거는 보고 가야지</string>
+    <string name="picture_tour">사진</string>
+    <string name="picture_explain">인생 사진 남기기 좋은 여행 장소</string>
+    <string name="shopping_tour">쇼핑</string>
+    <string name="shopping_explain">쇼퍼 홀릭들을 위한 장소들이 가득</string>
+
+    <string name="historic_place">역사 탐방</string>
+    <string name="historic_explain">살아 숨쉬는 선조들의 삶</string>
+    <string name="customized_tour_landmark">맞춤형 명소</string>
+    <string name="customized_tour_landmark_explain">내가 선호하는 여행명소는?</string>
+    <string name="customized_tour_residence">맞춤형 숙박</string>
+    <string name="customized_tour_residence_explain">잠은 편하게 자야지! 나만의 숙박시설</string>
+    <string name="customized_tour_restaurant">맞춤형 맛집</string>
+    <string name="customized_tour_restaurant_explain">내 입맛에 맞춘 맛집</string>
+
+    <string name="remove_marker_title">경유지 제거</string>
+    <string name="remove_marker_description">선택한 경유지를 여행 경로에서 제외하시겠습니까?</string>
+
+    <string name="add_marker_title">경유지 추가</string>
+    <string name="add_marker_description">선택한 경유지를 여행 경로에 포함하시겠습니까?</string>
+
+    <string name="set_place_title">여행 시작장소 결정</string>
+    <string name="set_place_description">선택한 장소를 여행의 시작장소로 하시겠습니까?</string>
+
+    <string name="replace_place_title">여행 시작장소 변경</string>
+    <string name="replace_place_description">현재 여행 시작장소를 대신할 새로운 시작장소를 고르시겠습니까?</string>
+
+    <string name="warning_title">세부장소 설정</string>
+    <string name="warning_description">여행 계획을 세우기 위해서 여행 제목과 첫 여행 시작지를 선택하셔야 합니다</string>
+
+    <string name="custom_select_title">경유지 추가</string>
+    <string name="custom_select_description">선택한 장소는 추천 장소가 아닙니다. 그래도 여행 경로에 포함하시겠습니까?</string>
+
+    <string name="line_draw_title">여행경로 그리기</string>
+    <string name="line_draw_description">선택하신 경유지에 대한 여행경로를 길을 따라 생성할 수 없습니다. 직선으로 여행경로를 생성하시겠습니까?</string>
+
+    <string name="dialog_ok">네</string>
+    <string name="dialog_no">아니오</string>
+
+</resources>

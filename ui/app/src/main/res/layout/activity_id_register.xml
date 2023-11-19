@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".IdRegister">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="회원가입"
+        android:textColor="@color/colorApp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="ID"
+            android:textColor="@color/colorTextAccent"/>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_underline"/>
+
+            <EditText
+                android:id="@+id/register_id_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+            
+        </FrameLayout>
+        
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/id_input_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "12dp"
+        android:gravity="right|top"
+        android:textColor="@color/gourmet_color"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="비밀번호"
+            android:textColor="@color/colorTextAccent"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_underline"/>
+
+            <EditText
+                android:id="@+id/register_passwd_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:layout_weight="1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/passwd_input_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "12dp"
+        android:gravity="right"
+        android:textColor="@color/gourmet_color"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="비밀번호 확인"
+            android:textColor="@color/colorTextAccent"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_underline"/>
+
+            <EditText
+                android:id="@+id/register_passwd_commit_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:layout_weight="1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/passwd_commit_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "12dp"
+        android:gravity="right"
+        android:textColor="@color/gourmet_color"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="이름"
+            android:textColor="@color/colorTextAccent"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_underline"/>
+
+            <EditText
+                android:id="@+id/register_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/name_input_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "12dp"
+        android:gravity="right"
+        android:textColor="@color/gourmet_color"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="전화번호"
+            android:textColor="@color/colorTextAccent"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_underline"/>
+
+            <EditText
+                android:id="@+id/register_phoneNO_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/phoneNO_input_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "12dp"
+        android:gravity="right"
+        android:textColor="@color/gourmet_color"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/register_commit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/register_abort_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/url_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

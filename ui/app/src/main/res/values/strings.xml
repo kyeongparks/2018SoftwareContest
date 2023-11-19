@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Button</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="register_id">REGISTER</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="title_activity_test">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">%1$d 일자</string>
+    <string name="title_activity_choose_places">ChoosePlacesActivity</string>
+    <string name="large_text">
+
+    </string>
+    <string name="travel_setup">여행을 떠나기 위한 세부 설정을 시작합니다▼</string>
+    <string name="travel_title_setup">여행의 제목을 정해주세요!!</string>
+    <string name="how_many_people">몇 명과 함께 여행을 떠나나요?</string>
+    <string name="travel_date">언제부터 언제까지 여행을 떠나나요?</string>
+    <string name="travel_place">어디로 떠나나요?</string>
+    <string name="person">인원 수</string>
+    <string name="departure_date">출발 일자</string>
+    <string name="end_date">종료 일자</string>
+    <string name="title">제목</string>
+    <string name="schedule">일정</string>
+    <string name="select_place">장소 정하기</string>
+
+
+    <string name="remove_marker">여행 경로에서 제외</string>
+    <string name="custom_place">사용자 지정장소</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
